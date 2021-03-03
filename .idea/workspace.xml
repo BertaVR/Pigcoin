@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95526a44-f37f-4317-a030-017ac21ec2f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pigcoin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pigcoin/src/test/main/java/edu/pingpong/pigcoin/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pigcoin/src/test/java/edu/pingpong/PigcoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pigcoin/src/test/main/java/edu/pingpong/pigcoin/PigcoinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -53,10 +62,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.pingpong.pigcoin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vika\Desktop\Pigcoin\pigcoin\src\test\main" />
+      <recent name="C:\Users\Vika\Desktop\Pigcoin\pigcoin\src\test\java\edu\pingpong\pigcoin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -81,8 +107,40 @@
       <updated>1614709013914</updated>
       <workItem from="1614709015267" duration="306000" />
       <workItem from="1614709345299" duration="35000" />
-      <workItem from="1614709472544" duration="333000" />
+      <workItem from="1614709472544" duration="3935000" />
+      <workItem from="1614766222193" duration="21000" />
+      <workItem from="1614782825286" duration="157000" />
+      <workItem from="1614783062685" duration="748000" />
     </task>
+    <task id="LOCAL-00001" summary="build: Configuración proyecto">
+      <created>1614709986182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614709986182</updated>
+    </task>
+    <task id="LOCAL-00002" summary="build: movida classe principal">
+      <created>1614711957086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614711957086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:  Clase Transaction hecha">
+      <created>1614711983543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614711983543</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:  Copiado GenSig">
+      <created>1614711996115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614711996115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,30 +158,69 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build: Configuración proyecto" />
+    <MESSAGE value="build: movida classe principal" />
+    <MESSAGE value="feat:  Clase Transaction hecha" />
+    <MESSAGE value="feat:  Copiado GenSig" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:  Copiado GenSig" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="920" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1614713181590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="920" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614713181590" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614709353702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1614709353702" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1614709324632">
+    <state x="551" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1614710111713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614709324632" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1614709324632">
+    <state x="551" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1614710111713" />
+    <state x="562" y="82" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614709801198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614709324632" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1614709324632">
+    <state x="562" y="82" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1614709801198" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614766241481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614709324632" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1614709324632">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614766241481" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1614713202644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614709324632" />
-    <state x="209" y="73" key="new project wizard" timestamp="1614709127763">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614713202644" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1614713202628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614709127763" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614713202628" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1614713202628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614713202628" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1614713202644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614713202644" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1614783491130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614783491130" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614712001288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614712001288" />
+    <state x="583" y="190" key="chooseDestDirectoryDialog" timestamp="1614710111647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1614710111647" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1614783277271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1614783277271" />
+    <state x="209" y="73" key="new project wizard" timestamp="1614709732064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614709732064" />
   </component>
 </project>

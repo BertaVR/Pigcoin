@@ -5,8 +5,8 @@ import java.security.PublicKey;
 public class Transaction {
     private final String hash;
     private final String prev_hash;
-    private final PublicKey pKey_sender;
-    private final PublicKey pKey_recipient;
+    private PublicKey pKey_sender;
+    private PublicKey pKey_recipient;
     private final byte[] signature;
     private double pigcoins = 0d;
     private String message = "";
