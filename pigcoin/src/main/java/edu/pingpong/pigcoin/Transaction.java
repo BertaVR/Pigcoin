@@ -7,12 +7,12 @@ public class Transaction {
     private final String prev_hash;
     private PublicKey pKey_sender;
     private PublicKey pKey_recipient;
-    private final byte[] signature;
+    private byte[] signature;
     private double pigcoins = 0d;
     private String message = "";
 
 
-    public Transaction() {
+    public Transaction(String hash_1, String s, PublicKey address, PublicKey wallet_2Address, double v, String s1) {
 
     }
 
@@ -24,7 +24,6 @@ public class Transaction {
         this.pKey_recipient = pKey_recipient;
         this.pigcoins = pigcoins;
         this.message = message;
-        this.signature = signature;
     }
 
     public String getHash() {
@@ -61,6 +60,10 @@ public class Transaction {
 
     public byte[] getSignature() {
         return signature;
+    }
+
+    public void setSignature(byte[] signature){
+        this.signature = signature;
     }
 
     @Override
