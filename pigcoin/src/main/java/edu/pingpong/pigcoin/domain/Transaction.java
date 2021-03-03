@@ -1,10 +1,10 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.domain;
 
 import java.security.PublicKey;
 
 public class Transaction {
-    private final String hash;
-    private final String prev_hash;
+    private String hash = "";
+    private String prev_hash = "";
     private PublicKey pKey_sender;
     private PublicKey pKey_recipient;
     private byte[] signature;
@@ -27,23 +27,23 @@ public class Transaction {
     }
 
     public String getHash() {
-        return hash;
+        return this.hash;
     }
 
     public String getPrev_hash() {
-        return prev_hash;
+        return this.prev_hash;
     }
 
     public PublicKey getpKey_sender() {
-        return pKey_sender;
+        return this.pKey_sender;
     }
 
     public PublicKey getpKey_recipient() {
-        return pKey_recipient;
+        return this.pKey_recipient;
     }
 
     public double getPigcoins() {
-        return pigcoins;
+        return this.pigcoins;
     }
 
     public void setPigcoins(double pigcoins) {
@@ -51,7 +51,7 @@ public class Transaction {
     }
 
     public String getMessage() {
-        return message;
+        return this.message;
     }
 
     public void setMessage(String message) {
@@ -59,7 +59,7 @@ public class Transaction {
     }
 
     public byte[] getSignature() {
-        return signature;
+        return this.signature;
     }
 
     public void setSignature(byte[] signature){

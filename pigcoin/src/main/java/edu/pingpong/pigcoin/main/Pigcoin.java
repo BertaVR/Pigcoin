@@ -1,29 +1,30 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.main;
 
+
+import edu.pingpong.pigcoin.domain.GenSig;
+import edu.pingpong.pigcoin.domain.Wallet;
 
 import java.security.KeyPair;
-import java.util.Map;
 
 public class Pigcoin {
 
-    public static void main( String[] args )
-    {
+    public static void main(String[] args) {
         /**
          * Crea una wallet
          * Genera las claves privada y publica de la wallet
          */
 
         System.out.println("\n" + "Ver clave Privada y clave Pública de una wallet" + "\n" +
-                "==============================================="        );
+                "===============================================");
 
         Wallet wallet_1 = new Wallet();
         KeyPair pair = GenSig.generateKeyPair();
         wallet_1.setSK(pair.getPrivate());
         wallet_1.setAddress(pair.getPublic());
 
-        System.out.println("\n Direccion de la Wallet_1: \n" +  wallet_1.getAddress().hashCode());
-/*
-        *//**
+        System.out.println("\n Direccion de la Wallet_1: \n" + wallet_1.getAddress().hashCode());
+        /*
+         *//**
          * Crea una segunda wallet, esta vez generando sus claves
          * con un metodo wallet.generateKeyPair() que encapsula
          * el codigo de la anterior historia de usuario
@@ -192,7 +193,7 @@ public class Pigcoin {
          * las que ya se han utilizado para enviar pigcoins
          *//*
 
-        *//**
+         *//**
          * Los pigcoins son indivisibles, asi que si necesitas 5.2 y no tienes
          * ninguna transaccion entrante exacta de 5.2, has de realizar un CHANGE ADDRESS (CA):
          * Consiste en reutilizar una transaccion entrante mayor que 5.2, por ejemplo 10,
@@ -222,14 +223,14 @@ public class Pigcoin {
          *  bChain.processTransactions(wallet_1.getAddress(), wallet_2.getAddress(), consumedCoins, message, signedTransaction);
          *//*
 
-        *//**
+         *//**
          * El blockchain debe chequear que las transacciones entrantes no proceden
          * de transacciones que ya se han utilizado (gastado), mediante el metodo:
          *
          * boolean bChain.isConsumedCoinValid(consumedCoins);
          *//*
 
-        *//**
+         *//**
          * El blockchain debe chequear que las transacciones sean autenticas,
          * es decir, que la firma del mensaje sea autentica, mediante el metodo:
          *
@@ -238,7 +239,7 @@ public class Pigcoin {
          * Este metodo usa GenSig.verify()
          *//*
 
-        *//**
+         *//**
          * Si el blockchain comprueba que los pigcoins que envias satisfacen
          * las dos condiciones anteriores,incluye estas transacciones
          * en la cadena de bloques
@@ -296,4 +297,5 @@ public class Pigcoin {
         wallet_2.loadOutputTransactions(bChain);
         System.out.println(wallet_2.toString());
     }*/
+    }
 }

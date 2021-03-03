@@ -1,4 +1,4 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.main;
 
 import org.junit.Test;
 

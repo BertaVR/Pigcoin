@@ -1,4 +1,7 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.domain;
+
+import edu.pingpong.pigcoin.domain.Transaction;
+import edu.pingpong.pigcoin.domain.Wallet;
 
 public class TransactionTest {
     Wallet wallet_1 = new Wallet();

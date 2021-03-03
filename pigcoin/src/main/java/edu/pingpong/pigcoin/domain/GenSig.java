@@ -1,4 +1,4 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.domain;
 
 
 import java.security.KeyPair;

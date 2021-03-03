@@ -1,4 +1,7 @@
-package edu.pingpong.pigcoin;
+package edu.pingpong.pigcoin.domain;
+
+import edu.pingpong.pigcoin.domain.GenSig;
+import edu.pingpong.pigcoin.domain.Transaction;
 
 import java.security.KeyPair;
 import java.security.PrivateKey;
@@ -46,11 +49,11 @@ public class Wallet {
     }
 
     public PublicKey getAddress() {
-        return address;
+        return this.address;
     }
 
     public PrivateKey getSK() {
-        return sKey;
+        return this.sKey;
     }
 
     }

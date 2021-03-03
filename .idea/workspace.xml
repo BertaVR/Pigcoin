@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95526a44-f37f-4317-a030-017ac21ec2f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pigcoin/src/test/main/java/edu/pingpong/pigcoin/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pigcoin/src/test/java/edu/pingpong/PigcoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pigcoin/src/test/main/java/edu/pingpong/pigcoin/PigcoinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -85,6 +81,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Pigcoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.pingpong.pigcoin.main.Pigcoin" />
+      <module name="Pigcoin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pingpong.pigcoin.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,6 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Pigcoin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,7 +124,7 @@
       <workItem from="1614709472544" duration="3935000" />
       <workItem from="1614766222193" duration="21000" />
       <workItem from="1614782825286" duration="157000" />
-      <workItem from="1614783062685" duration="748000" />
+      <workItem from="1614783062685" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="build: Configuración proyecto">
       <created>1614709986182</created>
@@ -140,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614711996115</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build: Package structure">
+      <created>1614784015454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614784015454</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:  Añadido setter de signature y cambiado constructor">
+      <created>1614784510537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614784510537</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,9 +191,15 @@
     <MESSAGE value="build: movida classe principal" />
     <MESSAGE value="feat:  Clase Transaction hecha" />
     <MESSAGE value="feat:  Copiado GenSig" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:  Copiado GenSig" />
+    <MESSAGE value="build: Package structure" />
+    <MESSAGE value="feat:  Añadido setter de signature y cambiado constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:  Añadido setter de signature y cambiado constructor" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1614784583856">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1614784583856" />
     <state x="920" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1614713181590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,10 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614783491130" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614712001288">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614784513415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614712001288" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614784513415" />
     <state x="583" y="190" key="chooseDestDirectoryDialog" timestamp="1614710111647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,5 +256,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614709732064" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pigcoin/src/main/java/edu/pingpong/pigcoin/Pigcoin.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
